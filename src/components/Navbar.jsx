@@ -77,6 +77,7 @@ export default function Navbar({
     setShowProfileCard(false);
     setProfileAnchorEl(null);
     setMobileMenuOpen(false);
+    navigate("/");
     location.reload()
   };
 
